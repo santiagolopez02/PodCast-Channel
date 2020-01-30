@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono%7CIBM+Plex+Sans%7CIBM+Plex+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <title>PodCast Channel</title>
+</head>
+<body>
+    <!-- Encabezado con menu e icono-->
+    <header>
+        <div class="container">
+            <img src="imagenes/icons/logo.svg" alt="logo" class="logoA">
+
+            <!--menu-->
+            <nav class="barra">
+                <input type="checkbox" id="menu" class="check">
+                <label for="menu" class="menu">
+                    <i class="fas fa-align-justify burguer" ></i>
+                    <i class="fas fa-times close" ></i>
+                </label>
+
+                <ul class="lista">
+                    <li><a href="#episodios">Episodios</a></li>
+                    <li><a href="#phone">Nosotros</a></li>
+                    <li><a href="#invitados">Entrevistas</a></li>
+                    <li><a href="#temas">Tópicos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--Section Title & Intro-->
+    <section class="intro" >
+        <div class="container">
+            <h1>Hello <del>world</del><br class="br"> pale blue dot<span class="dot">.</span></h1>
+            <p class="text">El portal de podcasts que explora el mundo de la programación y <br class="brA"> la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <a class="action-button" href="#phone">Conoce más</a> 
+        </div>
+    </section>
+
+    <!--Section Episode-->
+    <section class="episodios" >
+        <div class="container" id="episodios">
+            <h2>Episodios</h2>
+        </div>
+        <div class="big-container" >
+           <div class="iframe "><iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt"  height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+           <div class="iframe"><iframe src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+           <div class="iframe "><iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+           <div class="iframe"><iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"  height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+         </div>
+    </section>
+
+    <!--Section Phone-->
+    <section class="phone" id="phone">
+            <img src="imagenes/5.png" alt="phone">
+            <div class="container">
+                <h2>De dónde venimos</h2>
+                <p class="text">Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.
+                    <br/>
+                    <br/>
+                    Our planet is a lonely speck in the great eveliping cosmic dark. In our obscurity, in all this vestness, there is no hint that help will come from elsewhere to save us from ourselves.
+                </p>
+            </div>
+    </section>
+
+    <!--Section Invitados-->
+    <section class="invite" id="invitados">
+        <div class="container">
+            <h2>Invitadas/os estelares</h2>
+        </div>
+        <div class="photo-container">
+            <img src="imagenes/1era.png" alt="img">
+            <img src="imagenes/2da.png" alt="img">
+            <img src="imagenes/3era.png" alt="img">
+            <img src="imagenes/4ta.png" alt="img">
+            <img src="imagenes/5ta.png" alt="img">
+            <img src="imagenes/6ta.png" alt="img">
+        </div>
+    </section>    
+
+    <!--Section Temas-->
+    <section class="temas" id="temas" >
+        <div class="container">
+            <h2>Algunos de nuestros temas</h2>
+        </div>
+        <div class="icons">
+            <div class="ic">
+                <img src="imagenes/icons/icon1.svg" alt="iconos">
+                <h2>Trabajo remoto</h2>
+            </div>
+            <div class="ic">
+                <img src="imagenes/icons/icon2.svg" alt="iconos">
+                <h2>Repensando la <br class="pr">programacion</h2>
+            </div>
+            <div class="ic">
+                <img src="imagenes/icons/icon3.svg" alt="iconos">
+                <h2>Base de codigo</h2>
+            </div>
+            <div class="ic">
+                <img src="imagenes/icons/icon4.svg" alt="iconos">
+                <h2>Segurdad<br class="pr"> informatica</h2>
+            </div>
+        </div>
+    </section>
+
+    <!--Sections Novedades-->
+    <section class="novedades">
+        <div class="container">
+            <h2>¿Querés las últimas novedades?</h2>
+            <a class="action-button" href="#">ESCUCHÁ LOS EPOSODIOS</a> 
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <p > &copy; 2019- Hello blue pale dot</p>           
+        
+            <div class="red">
+                <a href="http://www.spotify.com/" target="_blank"><i class="fab fa-spotify"></i></a>
+                <a href="http://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="http://web.telegram.org" target="_blank"><i class="fab fa-telegram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/85b960a6d6.js" crossorigin="anonymous"></script>
+</body>
+</html>
